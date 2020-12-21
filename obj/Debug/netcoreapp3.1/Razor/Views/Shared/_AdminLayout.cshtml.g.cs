@@ -26,8 +26,15 @@ using ShoppingApp.WebUI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\Views\_ViewImports.cshtml"
+using ShoppingApp.WebUI.Entity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2bfe07253af743b90a1ff17515da9d86d9f4947a", @"/Views/Shared/_AdminLayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"64b69ed96a896a7100d37f1e3f55daea870cb8e0", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"511e01e67f0fe742f718040dc3c84e27766a7b08", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__AdminLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -64,7 +71,7 @@ using ShoppingApp.WebUI.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2bfe07253af743b90a1ff17515da9d86d9f4947a3528", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2bfe07253af743b90a1ff17515da9d86d9f4947a3731", async() => {
                 WriteLiteral("\r\n    <title></title>\r\n");
             }
             );
@@ -78,7 +85,7 @@ using ShoppingApp.WebUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2bfe07253af743b90a1ff17515da9d86d9f4947a4517", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2bfe07253af743b90a1ff17515da9d86d9f4947a4720", async() => {
                 WriteLiteral("\r\n    ");
 #nullable restore
 #line 11 "C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\Views\Shared\_AdminLayout.cshtml"

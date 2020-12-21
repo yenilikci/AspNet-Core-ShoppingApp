@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ShoppingApp.WebUI.Models;
+using ShoppingApp.WebUI.Repository.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,9 +12,16 @@ namespace ShoppingApp.WebUI.Controllers
 {
     public class HomeController : Controller
     {
+        public IProductRepository repository;
+
+        public HomeController(IProductRepository _repository)
+        {
+            repository = _repository;
+        }
+
         public IActionResult Index()
         {
-            return View();
+            return View(repository.Products);
         }
 
     }
