@@ -29,6 +29,7 @@ namespace ShoppingApp.WebUI
             services.AddDbContext<ShoppingContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IProductRepository, EfProductRepository>();
             services.AddTransient<ICategoryRepository, EfCategoryRepository>();
+            services.AddTransient<IUnitOfWork, EfUnitOfWork>();
             services.AddControllersWithViews();
         }
 
