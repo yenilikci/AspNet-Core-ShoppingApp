@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ShoppingApp.WebUI.Repository.Abstract
 {
-    public interface IProductRepository : IGenericRepository<Product>
+    public interface ICategoryRepository : IGenericRepository<Category>
     {
-        List<Product> Get5TopProducts();
-
+        Category GetByName(string name);
     }
 }
