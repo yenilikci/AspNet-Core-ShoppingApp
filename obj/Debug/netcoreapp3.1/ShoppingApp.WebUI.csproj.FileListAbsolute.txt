@@ -8,7 +8,6 @@ C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\bin\Debug\netcor
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\bin\Debug\netcoreapp3.1\ShoppingApp.WebUI.pdb
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\bin\Debug\netcoreapp3.1\ShoppingApp.WebUI.Views.dll
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\bin\Debug\netcoreapp3.1\ShoppingApp.WebUI.Views.pdb
-C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\ShoppingApp.WebUI.csprojAssemblyReference.cache
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\ShoppingApp.WebUI.AssemblyInfoInputs.cache
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\ShoppingApp.WebUI.AssemblyInfo.cs
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\ShoppingApp.WebUI.csproj.CoreCompileInputs.cache
@@ -80,3 +79,4 @@ C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcor
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\FeaturedProduct\Default.cshtml.g.cs
+C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\ShoppingApp.WebUI.csprojAssemblyReference.cache

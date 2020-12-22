@@ -18,7 +18,7 @@ namespace ShoppingApp.WebUI.Components
 
         public IViewComponentResult Invoke()
         {
-            return View(repository.GetAll().Where(i => i.isApproved && i.isFuture).ToList());
+            return View(repository.GetAll().Where(i => i.IsApproved && i.IsFeatured).ToList());
         }
 
 

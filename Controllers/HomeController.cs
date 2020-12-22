@@ -24,7 +24,7 @@ namespace ShoppingApp.WebUI.Controllers
 
         public IActionResult Index()
         {
-            return View(uow.Products.GetAll().Where(i => i.isApproved && i.isHome).ToList());  
+            return View(uow.Products.GetAll().Where(i => i.IsApproved && i.IsHome).ToList());  
             //return View(repository.GetAll());
         }
 

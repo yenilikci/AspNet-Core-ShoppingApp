@@ -21,11 +21,11 @@ namespace ShoppingApp.WebUI.Repository.Concrete.EntityFramework
             {
                 var products = new[]
                 {
-                    new Product(){ProductName="Photo Camera",Price=153,Image="product1.jpg",isHome=true,isApproved=true,isFuture=true},
-                    new Product(){ProductName="Wood Chair",Price=99,Image="product2.jpg",isHome=true,isApproved=true,isFuture=true},
-                    new Product(){ProductName="Comfortable Sofa",Price=526,Image="product3.jpg",isHome=true,isApproved=true,isFuture=true},
-                    new Product(){ProductName="Hand Bag",Price=125,Image="product4.jpg",isHome=true,isApproved=true,isFuture=true}, 
-                    new Product(){ProductName="Sofa",Price=250,Image="product3.jpg",isHome=false,isApproved=false,isFuture=false}
+                    new Product(){ProductName="Photo Camera",Price=153,Image="product1.jpg",IsHome=true,IsApproved=true,IsFeatured=true,Description="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.",HtmlContent="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı <b>1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</b>",DateAdded=DateTime.Now.AddDays(-10)},
+                    new Product(){ProductName="Wood Chair",Price=99,Image="product2.jpg",IsHome=true,IsApproved=true,IsFeatured=true,Description="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.",HtmlContent="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı <b>1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</b>",DateAdded=DateTime.Now.AddDays(-5)},
+                    new Product(){ProductName="Comfortable Sofa",Price=526,Image="product3.jpg",IsHome=true,IsApproved=true,IsFeatured=true,Description="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.",HtmlContent="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı <b>1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</b>",DateAdded=DateTime.Now.AddDays(-2)},
+                    new Product(){ProductName="Hand Bag",Price=125,Image="product4.jpg",IsHome=true,IsApproved=true,IsFeatured=true,Description="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.",HtmlContent="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı <b>1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</b>",DateAdded=DateTime.Now.AddDays(-7)}, 
+                    new Product(){ProductName="Sofa",Price=250,Image="product3.jpg",IsHome=false,IsApproved=false,IsFeatured=false,Description="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.",HtmlContent="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı <b>1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</b>",DateAdded=DateTime.Now.AddDays(-9)}
                 };
 
                 context.Products.AddRange(products);
@@ -49,6 +49,56 @@ namespace ShoppingApp.WebUI.Repository.Concrete.EntityFramework
                 };
 
                 context.AddRange(productCategories);
+
+
+                var images = new[]
+                {
+                    new Image(){ImageName="product1.jpg",Product=products[0]},
+                    new Image(){ImageName="product2.jpg",Product=products[0]},
+                    new Image(){ImageName="product3.jpg",Product=products[0]},
+                    new Image(){ImageName="product4.jpg",Product=products[0]},
+
+                    new Image(){ImageName="product1.jpg",Product=products[1]},
+                    new Image(){ImageName="product2.jpg",Product=products[1]},
+                    new Image(){ImageName="product3.jpg",Product=products[1]},
+                    new Image(){ImageName="product4.jpg",Product=products[1]},
+
+                    new Image(){ImageName="product1.jpg",Product=products[2]},
+                    new Image(){ImageName="product2.jpg",Product=products[2]},
+                    new Image(){ImageName="product3.jpg",Product=products[2]},
+                    new Image(){ImageName="product4.jpg",Product=products[2]},
+
+                    new Image(){ImageName="product1.jpg",Product=products[3]},
+                    new Image(){ImageName="product2.jpg",Product=products[3]},
+                    new Image(){ImageName="product3.jpg",Product=products[3]},
+                    new Image(){ImageName="product4.jpg",Product=products[3]}
+                };
+
+                context.Images.AddRange(images);
+
+
+                var attributes = new[]
+                {
+                    new ProductAttribute(){Attribute="Display",Value="15.6",Product=products[0]},
+                    new ProductAttribute(){Attribute="Processor",Value="Intel",Product=products[0]},
+                    new ProductAttribute(){Attribute="Ram Memory",Value="8 GB",Product=products[0]},
+                    new ProductAttribute(){Attribute="Hard Disk",Value="1 TB",Product=products[0]},
+                    new ProductAttribute(){Attribute="Color",Value="Black",Product=products[0]},
+
+                    new ProductAttribute(){Attribute="Display",Value="15.6",Product=products[1]},
+                    new ProductAttribute(){Attribute="Processor",Value="Intel",Product=products[1]},
+                    new ProductAttribute(){Attribute="Ram Memory",Value="8 GB",Product=products[1]},
+                    new ProductAttribute(){Attribute="Hard Disk",Value="1 TB",Product=products[1]},
+                    new ProductAttribute(){Attribute="Color",Value="Black",Product=products[1]},
+
+                    new ProductAttribute(){Attribute="Display",Value="15.6",Product=products[2]},
+                    new ProductAttribute(){Attribute="Processor",Value="Intel",Product=products[2]},
+                    new ProductAttribute(){Attribute="Ram Memory",Value="8 GB",Product=products[2]},
+                    new ProductAttribute(){Attribute="Hard Disk",Value="1 TB",Product=products[2]},
+                    new ProductAttribute(){Attribute="Color",Value="Black",Product=products[2]}
+                };
+
+                context.ProductAttributes.AddRange(attributes);
 
                 context.SaveChanges();
             }
