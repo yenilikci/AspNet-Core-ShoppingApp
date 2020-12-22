@@ -21,11 +21,11 @@ namespace ShoppingApp.WebUI.Repository.Concrete.EntityFramework
             {
                 var products = new[]
                 {
-                    new Product(){ProductName="Photo Camera",Price=153,Image="product1_thumb.jpg"},
-                    new Product(){ProductName="Wood Chair",Price=99,Image="product2_thumb.jpg"},
-                    new Product(){ProductName="Comfortable Sofa",Price=526,Image="product3_thumb.jpg"},
-                    new Product(){ProductName="Hand Bag",Price=125,Image="product4_thumb.jpg"}, 
-                    new Product(){ProductName="Sofa",Price=250,Image="product3_thumb.jpg"}
+                    new Product(){ProductName="Photo Camera",Price=153,Image="product1.jpg",isHome=true,isApproved=true,isFuture=true},
+                    new Product(){ProductName="Wood Chair",Price=99,Image="product2.jpg",isHome=true,isApproved=true,isFuture=true},
+                    new Product(){ProductName="Comfortable Sofa",Price=526,Image="product3.jpg",isHome=true,isApproved=true,isFuture=true},
+                    new Product(){ProductName="Hand Bag",Price=125,Image="product4.jpg",isHome=true,isApproved=true,isFuture=true}, 
+                    new Product(){ProductName="Sofa",Price=250,Image="product3.jpg",isHome=false,isApproved=false,isFuture=false}
                 };
 
                 context.Products.AddRange(products);
