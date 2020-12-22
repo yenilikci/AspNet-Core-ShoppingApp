@@ -27,65 +27,7 @@
 
                 @await Component.InvokeAsync("CategoryMenu") 
 
-                <div class="widget">
-                    <h4>FEATURED</h4>
-
-                    <div class="products-list">
-
-                        <div class="media">
-                            <a class="media-left" href="#">
-                                <img alt="" class="img-responsive product-thumb" src="images/products/product1_thumb.jpg">
-                            </a>
-                            <div class="media-body">
-                                <a href="#" class="product-title">Photo Camera</a>
-                                <p class="product-price">$153</p>
-                            </div>
-                        </div>
-
-                        <div class="media">
-                            <a class="media-left" href="#">
-                                <img alt="" class="img-responsive product-thumb" src="images/products/product2_thumb.jpg">
-                            </a>
-                            <div class="media-body">
-                                <a href="#" class="product-title">Wood Chair</a>
-                                <p class="product-price">$99</p>
-                            </div>
-                        </div>
-
-                        <div class="media">
-                            <a class="media-left" href="#">
-                                <img alt="" class="img-responsive product-thumb" src="images/products/product3_thumb.jpg">
-                            </a>
-                            <div class="media-body">
-                                <a href="#" class="product-title">Comfortable Sofa</a>
-                                <p class="product-price">$526</p>
-                            </div>
-                        </div>
-
-                        <div class="media">
-                            <a class="media-left" href="#">
-                                <img alt="" class="img-responsive product-thumb" src="images/products/product4_thumb.jpg">
-                            </a>
-                            <div class="media-body">
-                                <a href="#" class="product-title">Hand Bag</a>
-                                <p class="product-price">$125</p>
-                            </div>
-                        </div>
-
-                        <div class="media">
-                            <a class="media-left" href="#">
-                                <img alt="" class="img-responsive product-thumb" src="images/products/product1_thumb.jpg">
-                            </a>
-                            <div class="media-body">
-                                <a href="#" class="product-title">Photo Camera</a>
-                                <p class="product-price">$29</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
+                @await Component.InvokeAsync("FeaturedProduct")
 
             </div>
             <!-- sidebar end -->
@@ -98,21 +40,11 @@
                         <div class="row product-results">
                             <div class="product-results">
                                 <div class="col-xs-8">
-                                    <p class="woocommerce-result-count">Showing 1–12 of 25 results</p>
+                                    <p class="woocommerce-result-count">
+                                        There are @Model.Count() products
+                                    </p>
                                 </div>
 
-                                <div class="col-xs-4 text-right">
-                                    <form method="get" class="woocommerce-ordering">
-                                        <select class="form-control" name="orderby">
-                                            <option selected="selected" value="menu_order">Default sorting</option>
-                                            <option value="popularity">Sort by popularity</option>
-                                            <option value="rating">Sort by rating</option>
-                                            <option value="date">Newest on top</option>
-                                            <option value="price">Price: low to high</option>
-                                            <option value="price-desc">Price: high to low</option>
-                                        </select>
-                                    </form>
-                                </div>
                             </div>
                         </div>
                     </div>

@@ -79,3 +79,4 @@ C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\bin\Debug\netcor
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
+C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\FeaturedProduct\Default.cshtml.g.cs
