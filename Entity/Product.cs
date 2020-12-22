@@ -10,7 +10,10 @@ namespace ShoppingApp.WebUI.Entity
         public int ProductId { get; set; }
         public string ProductName { get; set; }
         public double Price { get; set; }
-
+        public string Image { get; set; }
+        public bool isApproved { get; set; }
+        public bool isHome { get; set; }
+        public bool isFuture { get; set; }
         public List<ProductCategory> ProductCategories { get; set; }
     }
 }

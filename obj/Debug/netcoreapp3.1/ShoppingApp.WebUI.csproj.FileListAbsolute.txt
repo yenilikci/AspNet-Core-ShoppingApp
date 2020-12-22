@@ -21,7 +21,6 @@ C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcor
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\ShoppingApp.WebUI.TagHelpers.input.cache
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\ShoppingApp.WebUI.TagHelpers.output.cache
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\ShoppingApp.WebUI.RazorCoreGenerate.cache
-C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -78,3 +77,4 @@ C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\bin\Debug\netcor
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
