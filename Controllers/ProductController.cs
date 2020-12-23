@@ -38,9 +38,23 @@ namespace ShoppingApp.WebUI.Controllers
                     .Where(i => i.ProductCategories.Any(a => a.Category.CategoryName == category));
             }
 
+            var count = products.Count();
+
             products = products.Skip((page - 1) * PageSize).Take(PageSize);
 
-            return View(products);
+            return View(
+                new ProductListModel()
+                {
+                    Products = products,
+                    PagingInfo = new PagingInfo()
+                    {
+                        CurrentPage = page,
+                        ItemsPerPage = PageSize,
+                        TotalItems = count,
+
+                    }
+                }
+                );
 
         }
 
