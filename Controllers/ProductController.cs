@@ -11,6 +11,9 @@ namespace ShoppingApp.WebUI.Controllers
 {
     public class ProductController : Controller
     {
+
+        public int PageSize = 2;
+
         private IProductRepository repository;
 
         public ProductController(IProductRepository _repository)
@@ -21,6 +24,24 @@ namespace ShoppingApp.WebUI.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult List(string category,int page=1)
+        {
+            var products = repository.GetAll();
+
+            if (!string.IsNullOrEmpty(category)) //bir kategori gelmiş mi
+            {
+                products = products
+                    .Include(i => i.ProductCategories)
+                    .ThenInclude(i => i.Category)
+                    .Where(i => i.ProductCategories.Any(a => a.Category.CategoryName == category));
+            }
+
+            products = products.Skip((page - 1) * PageSize).Take(PageSize);
+
+            return View(products);
+
         }
 
         public IActionResult Details(int id)

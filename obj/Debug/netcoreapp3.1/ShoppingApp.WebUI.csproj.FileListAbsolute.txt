@@ -81,3 +81,5 @@ C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcor
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\FeaturedProduct\Default.cshtml.g.cs
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\ShoppingApp.WebUI.csprojAssemblyReference.cache
 C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\List.cshtml.g.cs
+C:\Users\melih\source\repos\ShoppingApp.WebUI\ShoppingApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ProductItem.cshtml.g.cs

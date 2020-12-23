@@ -1,8 +1,5 @@
 ﻿@model IEnumerable<Product>
 
-@{
-    ViewData["Title"] = "Home Page";
-}
 <section id="content">
 
     <section id="shop" class="container">
@@ -25,7 +22,7 @@
                 </div>
 
 
-                @await Component.InvokeAsync("CategoryMenu") 
+                @await Component.InvokeAsync("CategoryMenu")
 
                 @await Component.InvokeAsync("FeaturedProduct")
 
@@ -50,9 +47,10 @@
                     </div>
 
                     @foreach (var product in Model)
-                    { 
-                        @Html.Partial("_ProductItem",product)
+                    {
+                        @Html.Partial("_ProductItem", product)
                     }
+
 
                 </div>
 
