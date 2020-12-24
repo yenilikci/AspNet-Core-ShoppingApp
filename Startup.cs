@@ -31,6 +31,9 @@ namespace ShoppingApp.WebUI
             services.AddTransient<ICategoryRepository, EfCategoryRepository>();
             services.AddTransient<IUnitOfWork, EfUnitOfWork>();
             services.AddControllersWithViews();
+
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +55,8 @@ namespace ShoppingApp.WebUI
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {
